@@ -1,0 +1,8 @@
+args:
+  group: two
+headers:
+  Accept: application/json
+  Host: localhost:8080
+  User-Agent: curl/7.68.0
+origin: 0.0.0.0
+url: http://localhost:8080/get?group=two

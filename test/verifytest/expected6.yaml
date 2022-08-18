@@ -1,0 +1,8 @@
+args:
+  group: six
+headers:
+  Accept: application/json
+  Host: localhost:8080
+  User-Agent: curl/7.68.0
+origin: 172.17.0.1
+url: http://localhost:8080/get?group=six
