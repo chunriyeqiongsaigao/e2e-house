@@ -48,14 +48,16 @@ verify:
   # verify with retry strategy
   retry:
     # max retry count
-    count: 3 #10
+    count: 5 #10
     # the interval between two attempts, e.g. 10s, 1m.
     interval: 2s  #10s
 
   # when a case fails, whether to stop verifying other cases. This property defaults to true.
   fail-fast: true
+
+
   # Whether to verify cases concurrently. This property defaults to false.
-  concurrency: true
+  concurrency: false
 
   cases:
     - query: curl -s localhost:8080/get?group=one -H "accept:application/json" #1 success
